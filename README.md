@@ -1,15 +1,14 @@
+<div>
             <h4>Ideal Conditions</h4>
-            
-            <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
-            <p><strong>Description:</strong> A Full Stack web application that takes in a Location string, uses an API microservice I developed to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>
-            
+            <p><em>Website:</em> <a href="https://www.jdstrongpdx.com/IdealConditionsPage">Ideal Conditions</a></p>
+            <p><em>App Type:</em> Full Stack Single Page Web Application</p>
+            <p><em>Description:</em> A Full Stack web application that takes in a Location string, uses an API microservice I developed to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>
             <ul>
                 <li><em>Frontend: </em> Uses a HTML, CSS, JavaScript and React with several React modules, Axios, Express.</li>
                 <li><em>Backend: </em> Uses an AWS Lambda Function running Python.  Uses an AWS API Gateway with Proxy Integration to inject the request into the Lambda function and return the response.  Code was written in PyCharm, tested, deployed to AWS and tested using Postman. </li>
                 <li><em>Hosting: </em> The backend is served AWS Lambda/API Gateway and the frontend is served by an AWS Amplify app.</li>
             </ul>
-            <p><strong>Details:</strong> This web application performs the following: </p>
-            
+            <p><em>Details:</em> This web application performs the following: </p>
             <ul>
                 <li><em>Frontend: </em></li>
                 <ol>
@@ -33,6 +32,6 @@
                     <li>Iterates through each Activity using a method to compare the forecast to the Activity ideal conditions, generating a nested dictionary of activities and ideal time windows.</li>
                     <li>If successful, returns a summary of location and Activity weather data, else returns an error.</li>
                     <li><a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Live JSON API data for Portland, OR</a></li>
-                    
                 </ol>
             </ul>
+            </div>
